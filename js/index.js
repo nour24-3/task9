@@ -26,7 +26,7 @@ let bookmark = {
 
 }
 
-
+console.log("aloo")
 function clearForm(){
     siteNameInput.value = null;
     urlLinkInput.value = null;
