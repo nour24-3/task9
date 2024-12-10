@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <section>
+        <div class="container p-4 my-4 rounded-4">
+            <div class="text-center image">
+            <img src="./images/Capture.PNG" width="300px"  alt="logo">
+            </div>
+            <div class="line">
+            </div>
+
+            <div class="text-center py-3">
+                <h2 class="h3 grediant"><span><i class="fa-solid fa-bookmark"></i></span>Bookmark your favorite sites <span><i class="fa-solid fa-bookmark"></i></span> </h2>
+            </div>
+
+            <div>
+                <div class="mb-3">
+                    <label for="siteName" class="form-label fw-bold"><span><i class="fa-solid fa-book-bookmark"></i></span>  Site Name</label>
+                    <input type="text" class="form-control" id="siteName"  placeholder="Bookmark Name">
+                </div>
+                <div class="mb-3">
+                    <label for="url" class="form-label fw-bold"><span><i class="fa-solid fa-link"></i></span>  Site URL</label>
+                    <input type="url" class="form-control" id="url"  placeholder="Website URL">
+                </div>
+
+                <div class="text-center py-3">
+                    <button onclick="addBookmark()" type="button" class="btn btn-danger px-5">Submit</button>
+                </div>
+
+            </div>
+            <div class="liner">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <table class="table caption-top">
+                <thead class="text-center">
+                <tr>
+                    <th scope="col">index</th>
+                    <th scope="col">Website Name</th>
+                    <th scope="col">Visit</th>
+                    <th scope="col">Delete</th>
+                </tr>
+                </thead>
+                <tbody class="text-center" id="tData">
+                   <tr>
+                        <th scope="row">1</th>
+                        <td>youtube</td>
+                        <td><button type="button" class="btn btn-success "> <span><i class="fa-solid fa-eye"></i></span>  View</button></td>
+                        <td><button type="button" class="btn btn-danger"><span><i class="fa-solid fa-trash"></i></span> Delete</button></td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>

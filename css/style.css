@@ -1,0 +1,22 @@
+body{
+    background-color: #F7ECDE;
+   
+}
+.line{
+    padding-top: 50px;
+    border-bottom: 2px dotted black;
+}
+.liner{
+    border-bottom: 2px dotted black;
+}
+h2{
+color: #3EA55B !important;
+}
+.btn-success{
+    background-color: #8A9E23;
+    border: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
